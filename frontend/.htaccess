@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule home index.php?controller=home
+
+RewriteRule products index.php?controller=product&action=all
+RewriteRule products/search=([a-zA-Z0-9]+) index.php?controller=product&action=all&products_title=$1&search=
+RewriteRule product/category-id/([0-9]) index.php?controller=product&action=index&category_id=$1
+RewriteRule product-([0-9]+) index.php?controller=product&action=detail&id=$1
+
+RewriteRule cart/add/([0-9]+) index.php?controller=cart&action=add&id=$1
+RewriteRule cart index.php?controller=cart&action=index
+RewriteRule delete/([0-9]+) index.php?controller=cart&action=delete&id=$1
+RewriteRule payment index.php?controller=payment&action=index
+RewriteRule thank index.php?controller=payment&action=thank

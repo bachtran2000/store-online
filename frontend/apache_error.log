@@ -1,0 +1,11 @@
+[Tue Jun 08 16:54:28 2021] [notice] Digest: generating secret for digest authentication ...
+[Tue Jun 08 16:54:28 2021] [notice] Digest: done
+[Tue Jun 08 16:54:28 2021] [notice] Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 configured -- resuming normal operations
+[Tue Jun 08 16:54:28 2021] [notice] FastCGI: process manager initialized (pid 15358)
+[Tue Jun 08 17:14:17 2021] [notice] caught SIGTERM, shutting down
+[Tue Jun 08 21:46:38 2021] [notice] Digest: generating secret for digest authentication ...
+[Tue Jun 08 21:46:38 2021] [notice] Digest: done
+[Tue Jun 08 21:46:38 2021] [notice] FastCGI: process manager initialized (pid 5705)
+[Tue Jun 08 21:46:38 2021] [notice] Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 configured -- resuming normal operations
+[Tue Jun 08 21:46:48 2021] [error] [client ::1] client denied by server configuration: /Users/barttran/OneDrive - actvn.edu.vn/\xc4\x90a\xcc\xa3i ho\xcc\xa3c/Na\xcc\x86m 3/Nam 3/BTL/.DS_Store
+[Tue Jun 08 21:46:48 2021] [error] [client ::1] File does not exist: /Users/barttran/OneDrive - actvn.edu.vn/\xc4\x90a\xcc\xa3i ho\xcc\xa3c/Na\xcc\x86m 3/Nam 3/BTL/favicon.ico, referer: http://localhost:8080/

@@ -1,0 +1,143 @@
+2021-06-08T14:45:14.6NZ mysqld_safe Logging to '/Users/barttran/OneDrive - actvn.edu.vn/Đại học/Năm 3/Nam 3/BTL/backend/mysql_error.log'.
+2021-06-08T14:45:14.6NZ mysqld_safe Starting mysqld daemon with databases from /Library/Application Support/appsolute/MAMP PRO/db/mysql57
+2021-06-08T14:45:14.826131Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2021-06-08T14:45:14.828081Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.26) starting as process 5268 ...
+2021-06-08T14:45:14.843411Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ is case insensitive
+2021-06-08T14:45:14.857204Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-08T14:45:14.857243Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-08T14:45:14.857252Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-08T14:45:14.857259Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-08T14:45:14.857289Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2021-06-08T14:45:14.860066Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-08T14:45:14.864208Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-08T14:45:14.866079Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-08T14:45:14.876724Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-08T14:45:14.900165Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-08T14:45:14.967638Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-08T14:45:14.967782Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-08T14:45:14.976089Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-08T14:45:14.976749Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-06-08T14:45:14.976765Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-06-08T14:45:14.976964Z 0 [Note] InnoDB: Waiting for purge to start
+2021-06-08T14:45:15.031657Z 0 [Note] InnoDB: 5.7.26 started; log sequence number 4409378
+2021-06-08T14:45:15.031892Z 0 [Note] InnoDB: Loading buffer pool(s) from /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ib_buffer_pool
+2021-06-08T14:45:15.036044Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-06-08T14:45:15.049615Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:45:15.049668Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:45:15.050952Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2021-06-08T14:45:15.050982Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-06-08T14:45:15.051184Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-06-08T14:45:15.051305Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-06-08T14:45:15.051850Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-06-08T14:45:15.055732Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210608 21:45:15
+2021-06-08T14:45:15.072677Z 0 [Note] Failed to start slave threads for channel ''
+2021-06-08T14:45:15.113314Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-06-08T14:45:15.113454Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.26'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2021-06-08T14:45:15.163010Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:45:15.171115Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:45:15.178635Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:45:15.186203Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:45:15.315538Z 9 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:45:15.359545Z 10 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:45:15.359565Z 10 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:46:24.848284Z 23 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:24.860789Z 24 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:24.873020Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-06-08T14:46:24.873041Z 0 [Note] Shutting down slave threads
+2021-06-08T14:46:24.873389Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-06-08T14:46:24.873424Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-08T14:46:24.873529Z 0 [Note] Binlog end
+2021-06-08T14:46:24.875446Z 0 [Note] Shutting down plugin 'ngram'
+2021-06-08T14:46:24.875496Z 0 [Note] Shutting down plugin 'partition'
+2021-06-08T14:46:24.875511Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-06-08T14:46:24.875541Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-06-08T14:46:24.875551Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-06-08T14:46:24.875574Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-06-08T14:46:24.875581Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-06-08T14:46:24.875628Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-06-08T14:46:24.875638Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-06-08T14:46:24.875646Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-06-08T14:46:24.875652Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-06-08T14:46:24.875659Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-06-08T14:46:24.875665Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-06-08T14:46:24.875671Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-06-08T14:46:24.875677Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-06-08T14:46:24.875683Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-06-08T14:46:24.875689Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-06-08T14:46:24.875695Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-06-08T14:46:24.875700Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-06-08T14:46:24.875706Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-06-08T14:46:24.875715Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-06-08T14:46:24.875721Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-06-08T14:46:24.875728Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-06-08T14:46:24.875736Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-06-08T14:46:24.875742Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-06-08T14:46:24.875748Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-06-08T14:46:24.875754Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-06-08T14:46:24.875760Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-06-08T14:46:24.875766Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-06-08T14:46:24.875772Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-06-08T14:46:24.875778Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-06-08T14:46:24.875784Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-06-08T14:46:24.875790Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-06-08T14:46:24.875796Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-06-08T14:46:24.875802Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-06-08T14:46:24.875810Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-06-08T14:46:24.875816Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-06-08T14:46:24.875838Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-06-08T14:46:24.876249Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-08T14:46:24.876285Z 0 [Note] InnoDB: Starting shutdown...
+2021-06-08T14:46:24.979658Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ib_buffer_pool
+2021-06-08T14:46:24.980664Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210608 21:46:24
+2021-06-08T14:46:25.622572Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4409406
+2021-06-08T14:46:25.622790Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-08T14:46:25.622805Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-06-08T14:46:25.622812Z 0 [Note] Shutting down plugin 'CSV'
+2021-06-08T14:46:25.622817Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-06-08T14:46:25.622822Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-06-08T14:46:25.622909Z 0 [Note] Shutting down plugin 'binlog'
+2021-06-08T14:46:25.624396Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: Shutdown complete
+
+2021-06-08T14:46:25.6NZ mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+2021-06-08T14:46:31.6NZ mysqld_safe Logging to '/Users/barttran/OneDrive - actvn.edu.vn/Đại học/Năm 3/Nam 3/BTL/backend/mysql_error.log'.
+2021-06-08T14:46:31.6NZ mysqld_safe Starting mysqld daemon with databases from /Library/Application Support/appsolute/MAMP PRO/db/mysql57
+2021-06-08T14:46:32.021398Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2021-06-08T14:46:32.021691Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.26) starting as process 5678 ...
+2021-06-08T14:46:32.027019Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ is case insensitive
+2021-06-08T14:46:32.029382Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-08T14:46:32.029420Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-08T14:46:32.029435Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-08T14:46:32.029448Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-08T14:46:32.029477Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2021-06-08T14:46:32.029782Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-08T14:46:32.029941Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-08T14:46:32.031735Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-08T14:46:32.042628Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-08T14:46:32.060318Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-08T14:46:32.124606Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-08T14:46:32.124811Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-08T14:46:32.134445Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-08T14:46:32.135066Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-06-08T14:46:32.135087Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-06-08T14:46:32.135253Z 0 [Note] InnoDB: Waiting for purge to start
+2021-06-08T14:46:32.186029Z 0 [Note] InnoDB: 5.7.26 started; log sequence number 4409406
+2021-06-08T14:46:32.186281Z 0 [Note] InnoDB: Loading buffer pool(s) from /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ib_buffer_pool
+2021-06-08T14:46:32.186468Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-06-08T14:46:32.196449Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:46:32.196542Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-06-08T14:46:32.201146Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2021-06-08T14:46:32.201196Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-06-08T14:46:32.201470Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-06-08T14:46:32.201586Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-06-08T14:46:32.202053Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-06-08T14:46:32.214781Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210608 21:46:32
+2021-06-08T14:46:32.227927Z 0 [Note] Failed to start slave threads for channel ''
+2021-06-08T14:46:32.302835Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-06-08T14:46:32.302971Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.26'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2021-06-08T14:46:32.314503Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:32.323539Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:32.332752Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:32.380356Z 6 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2021-06-08T14:46:49.928627Z 15 [Note] Access denied for user 'root'@'localhost' (using password: NO)

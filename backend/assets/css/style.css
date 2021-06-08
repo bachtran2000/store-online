@@ -1,0 +1,23 @@
+.main-header .sidebar-toggle:before {
+  content: "";
+}
+
+.content-wrap {
+  min-height: 0 !important;
+  overflow: auto;
+}
+#form-register label span{
+  color: red;
+}
+.product_list_table{
+  width: 100%;
+}
+.product_list_table tr .category-name{
+  width: 10%;
+}
+.product_list_table tr .product-title{
+  width: 30%;
+}
+.user-list-table tr .action{
+  width: 10%;
+}
